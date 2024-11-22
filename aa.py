@@ -43,5 +43,3 @@ driver.find_element(By.ID,"login").click()
 
 
 sleep(3)
-
-driver.quit()

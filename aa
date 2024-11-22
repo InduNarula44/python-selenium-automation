@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 
-# get the path to the ChromeDriver executable
+#get the path to the ChromeDriver executable
 driver_path = ChromeDriverManager().install()
 
 # create a new Chrome browser instance
@@ -43,5 +43,3 @@ driver.find_element(By.ID,"login").click()
 
 
 sleep(3)
-
-driver.quit()
