@@ -15,6 +15,6 @@ driver.maximize_window()
 
 
 
-driver.get('https://www.facebook.com')
+driver.get('https://www.gap.com')
 sleep(3)
 driver.quit()
