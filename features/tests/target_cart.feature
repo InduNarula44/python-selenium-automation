@@ -4,7 +4,6 @@ Feature: Test  Scenario for Cart Icon functionality
 
   Scenario: User gets the message for empty cart
     Given Open Target main page
-#    Then Verify cart icon is visible on the upper Right side
-#    When User Clicks on cart icon
-#    Then Verify "Your Cart is empty" message is shown
-#
+    When User Clicks on cart icon
+    Then Verify "Your Cart is empty" message is shown
+
